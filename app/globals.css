@@ -1,0 +1,81 @@
+/* Navy Theme */
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f7fb;
+}
+
+/* Sidebar */
+
+.sidebar{
+  width:230px;
+  background:#0f1f3d;
+  color:white;
+  height:100vh;
+  padding:25px;
+}
+
+.sidebar h2{
+  margin-bottom:40px;
+}
+
+.sidebar p{
+  margin:20px 0;
+  cursor:pointer;
+  padding:8px;
+  border-radius:5px;
+}
+
+.sidebar p:hover{
+  background:#1f3a6d;
+}
+
+/* Main content */
+
+.main{
+  flex:1;
+  padding:40px;
+}
+
+/* Textboxes */
+
+.inputBox{
+  width:100%;
+  padding:10px;
+  margin-top:12px;
+  border:1px solid #cbd5e1;
+  border-radius:5px;
+  outline:none;
+}
+
+.inputBox:focus{
+  border-color:#0f1f3d;
+}
+
+/* Buttons */
+
+.primaryBtn{
+  width:100%;
+  padding:10px;
+  margin-top:20px;
+  background:#0f1f3d;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.primaryBtn:hover{
+  background:#1f3a6d;
+}
+
+/* Question card */
+
+.postCard{
+  background:white;
+  padding:20px;
+  margin-top:20px;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
